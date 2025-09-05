@@ -22,7 +22,7 @@ clearButton.forEach(clear => {
         clear.addEventListener("click", () => {
             hasOperator = true;
             if (isTyping) return; 
-            input.value = "";
+        
             firstNumber = false;
             input.classList.remove('typing-cursor');
         });
@@ -109,6 +109,7 @@ function typeMessage(message) {
     }, 50);
 
 }
+
 
 
 
