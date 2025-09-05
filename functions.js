@@ -35,6 +35,7 @@ playMusicButton.addEventListener("click", () => {
     timesOfCalculations++;
     if (!hasOperator || !firstNumber){
         typeMessage("You have to make an operation first")
+        return;
     }
     if(timeoOfCalculations === 5){
         typeMessage("yot, i really want it to be us, i really want it to be you. as much as i want to tell you this in person, i just cant because im scared you might break. i really hate it when you cry cause i have really have to try and stay composed. im literally coding on my phone while im at the bus, hoping you'll find this sooner than ever. I cant keep it off my mind so I have to write it down. FOR FUCKS SAKE ALL I WANT IS FOR YOU TO TELL ME YOU NEED ME. TELL ME YOU WANT ME TO STAY AND THAT YOULL CHOOSE ME OVER ANYBODY ELSE. YOT, I AM AND WILL ALWAYS BE YOURS. IF YOU'LL LOSE THE LOVE YOU HAVE, AND, IF EVER, YOU'LL LOOK FOR IT AGAIN, I HOPE YOU'LL GIVE US A CHANCE. I LOVE YOU NOW AND FOREVER.");
@@ -108,6 +109,7 @@ function typeMessage(message) {
     }, 50);
 
 }
+
 
 
 
