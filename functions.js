@@ -14,21 +14,17 @@ numberButtons.forEach(number => {
         input.scrollLeft = input.scrollWidth;
     });
 });
-
-
 const clearButton = document.querySelectorAll(".operator");
 clearButton.forEach(clear => {
     if (clear.id !== "play-music" && clear.id !== "clear-button") { 
         clear.addEventListener("click", () => {
             hasOperator = true;
             if (isTyping) return; 
-        
             firstNumber = false;
             input.classList.remove('typing-cursor');
         });
     }
 });
-
 const playMusicButton = document.getElementById("play-music")
 playMusicButton.addEventListener("click", () => {
     if (isTyping) return;
@@ -49,18 +45,15 @@ playMusicButton.addEventListener("click", () => {
         typeMessage(selectedMessage);
     }
 });
-
 const messagePicker = [
     "told ya you can do it",
     "congrats our little braniac"
     ]
-
 function typeMessage(message) {
     isTyping = true;
     input.value = "";
     hasOperator = false;
     input.classList.add('typing-cursor');
-    
     let i = 0;
     const typeInterval = setInterval(() => {
         if (i < message.length) {
@@ -71,7 +64,6 @@ function typeMessage(message) {
             clearInterval(typeInterval);
             input.classList.remove('typing-cursor');
             isTyping = false;
-            
             setTimeout(() => {
                 if (!isTyping) {
                     input.value = "";
@@ -79,12 +71,4 @@ function typeMessage(message) {
             }, 1000);
         }
     }, 50);
-
 }
-
-
-
-
-
-
-
