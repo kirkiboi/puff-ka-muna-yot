@@ -51,37 +51,9 @@ playMusicButton.addEventListener("click", () => {
 });
 
 const messagePicker = [
-    "Do not worry, yot, you can do it!",
-    "We (cotton & I) believe in u :D",
-    "wishing you the best of luck",
-    "pinaka bright sa tanan",
-    "let's do it for justin nabunturan",
-    "kakayanin? kakayanin!",
-    "sending warm hugs and kisses!",
-    "kisses to send you off :333",
-    "don't overthink it, langga",
-    "YOU CAN DO IT!",
-    "pancit nga board",
-    "ez? ezzzzz",
-    "kiss ko b para isog",
-    "don't pressure youself ha",
-    "stand proud!",
-    "mwuuuuuuuuuuah",
-    "im proud of u my dude :>",
-    "keep up the good work",
-    "pag ma pasar (even if dili, which i doubt) kay tagaan takag unli",
-    "ACE IT!",
-    "break a leg :)",
-    "go mommy NYAHAHAH",
-    "lutuan takag pancit canton? XD",
-    "board exam stands no chanc against you dayumm",
-    "breathe in, breathe out",
-    "YOU GOT THE BRAAAAAIN",
-    "may humihingi ng tulong bomba na",
-    "puff ka muna!",
-    "proud si malupiton sa imoha yot hahahahha",
-    "yot, i really want it to be us, i really want it to be you. as much as i want to tell you this in person, i just cant because im scared you might break. i really hate it when you cry cause i have really have to try and stay composed. im literally coding on my phone while im at the bus, hoping you'll find this sooner than ever. I cant keep it off my mind so I have to write it down. FOR FUCKS SAKE ALL I WANT IS FOR YOU TO TELL ME YOU NEED ME. TELL ME YOU WANT ME TO STAY AND THAT YOULL CHOOSE ME OVER ANYBODY ELSE. YOT, I AM AND WILL ALWAYS BE YOURS. IF YOU'LL LOSE THE LOVE YOU HAVE, AND, IF EVER, YOU'LL LOOK FOR IT AGAIN, I HOPE YOU'LL GIVE US A CHANCE. I LOVE YOU NOW AND FOREVER."
-]
+    "told ya you can do it",
+    "congrats our little braniac"
+    ]
 
 function typeMessage(message) {
     isTyping = true;
@@ -109,6 +81,7 @@ function typeMessage(message) {
     }, 50);
 
 }
+
 
 
 
